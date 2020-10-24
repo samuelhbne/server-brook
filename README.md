@@ -19,7 +19,7 @@ $ docker build -t samuelhbne/server-brook:amd64 -f Dockerfile.amd64 .
 
 ```shell
 $ docker run --rm -it samuelhbne/server-brook:amd64
-server-brook -w|--password <password> [-p|--port <port-number>]
+server-brook -w|--password <password> [-p|--port <port-number>] [-k|--hook <hook-url>]
     -w|--password <password>      Password for brook server access
     -p|--port <port-num>          [Optional] Port number for brook server connection, default 6060
     -k|--hook <hook-url>          [Optional] URL to be hit before server execution, for DDNS update or notification

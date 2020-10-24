@@ -1,7 +1,7 @@
 #!/bin/bash
 
 usage() {
-	echo "server-brook -w|--password <password> [-p|--port <port-number>]"
+	echo "server-brook -w|--password <password> [-p|--port <port-number>] [-k|--hook <hook-url>]"
 	echo "    -w|--password <password>      Password for brook server access"
 	echo "    -p|--port <port-num>          [Optional] Port number for brook server connection, default 6060"
 	echo "    -k|--hook <hook-url>          [Optional] URL to be hit before server execution, for DDNS update or notification"
