@@ -1,6 +1,6 @@
 # server-brook
 
-Yet another unofficial [Brook](https://github.com/txthinking/brook) server installation scripts.
+Yet another unofficial [Brook](https://github.com/txthinking/brook) server container with x86 and arm/arm64 (Raspberry Pi) support.
 
 ## [Optional] How to build server-brook docker image
 
