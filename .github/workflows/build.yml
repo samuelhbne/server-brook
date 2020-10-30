@@ -39,4 +39,4 @@ jobs:
             file: ./Dockerfile.arm
             platforms: linux/arm/v6
             push: true
-            tags: samuelhbne/server-brook:arm32v6
+            tags: ${GITHUB_REPOSITORY}:arm32v6
