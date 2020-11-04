@@ -2,7 +2,7 @@
 
 Yet another unofficial [Brook](https://github.com/txthinking/brook) server container with x86 and arm/arm64 (Raspberry Pi) support.
 
-![docker-build](https://github.com/samuelhbne/server-brook/workflows/docker-build/badge.svg)
+![docker-build](https://github.com/samuelhbne/server-brook/workflows/docker-buildx-latest/badge.svg)
 
 ## [Optional] How to build server-brook docker image
 
